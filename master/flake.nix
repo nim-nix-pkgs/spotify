@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-spotify-master.flake = false;
+  inputs.src-spotify-master.ref   = "refs/heads/master";
   inputs.src-spotify-master.owner = "CORDEA";
-  inputs.src-spotify-master.ref   = "master";
   inputs.src-spotify-master.repo  = "spotify";
   inputs.src-spotify-master.type  = "github";
   
